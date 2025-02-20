@@ -12,7 +12,6 @@ public class CompositePatternDemo {
         smallBox.addItem(p2);
         smallBox.addItem(p3);
 
-
         Box bigBox = new Box();
         bigBox.addItem(p1);
         bigBox.addItem(smallBox);
